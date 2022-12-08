@@ -269,23 +269,6 @@ summary {
   overflow: hidden;
 }
 
-.portfolio__container, .footer__container, .clients__container, .team__container, .features__container, .header__container, .privilege__container {
-  width: 1200px;
-  padding: 0px 15px;
-  margin: 0 auto;
-}
-
-.clients__title, .team__title, .features__title {
-  color: #212121;
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 50px;
-}
-
 .modal__button, .footer__button, .hero__btn {
   color: #ffffff;
   background-color: #2196f3;
@@ -304,6 +287,22 @@ body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #212121;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .privilege {
@@ -469,6 +468,9 @@ body {
   padding: 10px 32px;
 }
 
+.features__title {
+  text-align: center;
+}
 .features__examples-list {
   display: flex;
   margin: -15px;
@@ -512,6 +514,10 @@ body {
 .team__img {
   display: block;
 }
+.team__title {
+  text-align: center;
+}
+
 .team__list {
   display: flex;
   margin: -15px;
@@ -579,6 +585,10 @@ body {
 
 .team__social-icon {
   fill: currentColor;
+}
+
+.clients__title {
+  text-align: center;
 }
 
 .clients__list {
@@ -1068,6 +1078,7 @@ body {
 
 .portfolio__info {
   padding: 20px 24px;
+  text-align: left;
 }
 
 .portfolio__info-title {

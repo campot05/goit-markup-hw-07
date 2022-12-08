@@ -2,10 +2,6 @@
   padding-top: 107px;
 }
 
-.privilege__container {
-  @extend %container;
-}
-
 .privilege__title {
   @extend %visually-hidden;
   color: $title-text-color;

@@ -1,12 +1,8 @@
 .clients {
   @extend %section;
 
-  &__container {
-    @extend %container;
-  }
-
   &__title {
-    @extend %title;
+    text-align: center;
   }
 }
 

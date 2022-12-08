@@ -1,8 +1,5 @@
 .portfolio {
   @extend %section;
-  &__container {
-    @extend %container;
-  }
 }
 .portfolio__title {
   @extend %visually-hidden;
@@ -108,6 +105,7 @@
 }
 .portfolio__info {
   padding: 20px 24px;
+  text-align: left;
 }
 .portfolio__info-title {
   color: $title-text-color;

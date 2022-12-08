@@ -2,14 +2,11 @@
   @extend %section;
   background-color: #f5f4fa;
 
-  &__container {
-    @extend %container;
-  }
   &__img {
     display: block;
   }
   &__title {
-    @extend %title;
+    text-align: center;
   }
 }
 

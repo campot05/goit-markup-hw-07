@@ -2,7 +2,6 @@
   border-bottom: 1px solid #ececec;
 
   &__container {
-    @extend %container;
     display: flex;
     align-items: center;
   }
