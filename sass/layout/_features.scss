@@ -1,12 +1,9 @@
 .features {
-  @extend %section;
-
   &__title {
     text-align: center;
   }
 
   &__examples-list {
-    @extend %list;
     display: flex;
     margin: -15px;
   }

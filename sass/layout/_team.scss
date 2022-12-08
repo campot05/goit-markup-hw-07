@@ -1,5 +1,4 @@
 .team {
-  @extend %section;
   background-color: #f5f4fa;
 
   &__img {
@@ -11,7 +10,6 @@
 }
 
 .team__list {
-  @extend %list;
   display: flex;
   margin: -15px;
 }
@@ -42,7 +40,6 @@
 }
 
 .team__social-list {
-  @extend %list;
   display: flex;
   justify-content: center;
   margin: -5px;

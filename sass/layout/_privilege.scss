@@ -1,5 +1,6 @@
 .privilege {
   padding-top: 107px;
+  padding-bottom: 0;
 }
 
 .privilege__title {
@@ -15,7 +16,6 @@
 }
 
 .privilege__benefits-list {
-  @extend %list;
   display: flex;
   gap: 30px;
 }

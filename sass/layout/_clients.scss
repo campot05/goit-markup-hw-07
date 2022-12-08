@@ -1,13 +1,10 @@
 .clients {
-  @extend %section;
-
   &__title {
     text-align: center;
   }
 }
 
 .clients__list {
-  @extend %list;
   display: flex;
   justify-content: center;
   margin: -15px;

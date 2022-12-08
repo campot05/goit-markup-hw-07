@@ -12,9 +12,7 @@
   margin-top: 20px;
   font-style: normal;
 }
-.footer__adress-list {
-  @extend %list;
-}
+
 .footer__adress-item {
   margin-bottom: 9px;
 
@@ -53,7 +51,6 @@
 }
 
 .footer__social-list {
-  @extend %list;
   display: flex;
   justify-content: center;
   margin: -5px;
@@ -130,7 +127,6 @@
 }
 
 .footer__button {
-  @extend %button;
   height: 50px;
   padding: 10px 28px;
   display: flex;
