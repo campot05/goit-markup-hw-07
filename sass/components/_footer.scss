@@ -4,7 +4,9 @@
 }
 
 .footer__container {
+  @extend %container;
   display: flex;
+  align-items: baseline;
 }
 
 .footer__logo {
@@ -42,7 +44,6 @@
   }
 }
 .foote__join {
-  padding-top: 12px;
   margin-left: 95px;
 }
 .footer__title {
@@ -61,7 +62,6 @@
 .footer__form {
   display: flex;
   margin-left: 93px;
-  padding-top: 12px;
 }
 .footer__form-field {
   display: flex;
