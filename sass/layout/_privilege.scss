@@ -18,17 +18,16 @@
   margin-bottom: 50px;
 }
 
-.benefits {
+.privilege__benefits-list {
   @extend %list;
   display: flex;
-  margin: -15px;
+  gap: 30px;
 }
 
-.benefits__item {
+.privilege__item {
   max-width: calc((100% - 90px) / 4);
-  margin: 15px;
 }
-.benefits__block {
+.privilege__block {
   height: 120px;
   display: flex;
   justify-content: center;
@@ -37,7 +36,7 @@
   margin-bottom: 30px;
 }
 
-.benefits__title {
+.privilege__title {
   color: $title-text-color;
   font-weight: 700;
   font-size: 14px;
@@ -46,7 +45,7 @@
   margin-top: 0;
   margin-bottom: 10px;
 }
-.benefits__text {
+.privilege__text {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
