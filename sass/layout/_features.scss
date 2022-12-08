@@ -1,22 +1,31 @@
 .features {
-	@extend %section;
- }
+  @extend %section;
 
-.examples {
-  @extend %list;
-  display: flex;
-  margin: -15px;
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    @extend %title;
+  }
+
+  &__examples-list {
+    @extend %list;
+    display: flex;
+    margin: -15px;
+  }
 }
-.examples__item {
+
+.features__item {
   position: relative;
   width: calc((100% - 60px) / 3);
   margin: 15px;
-
-  img {
-    display: block;
-  }
 }
-.examples__overlay {
+
+.features__img {
+  display: block;
+}
+.features__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -28,7 +37,7 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.examples__text {
+.features__text {
   margin: 0;
   font-weight: 700;
   font-size: 14px;
