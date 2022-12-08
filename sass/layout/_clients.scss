@@ -1,19 +1,27 @@
 .clients {
   @extend %section;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__title {
+    @extend %title;
+  }
 }
 
-.clients-list {
+.clients__list {
   @extend %list;
   display: flex;
   justify-content: center;
   margin: -15px;
 }
-.clients-list__item {
+.clients__item {
   width: calc((100% - 150px) / 6);
   margin: 15px;
   text-align: center;
 }
-.clients-list__link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +40,6 @@
     color: $accent-color;
   }
 }
-.clients-list__icon {
+.clients__icon {
   fill: currentColor;
 }
