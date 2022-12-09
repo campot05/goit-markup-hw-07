@@ -7,11 +7,10 @@
 .clients__list {
   display: flex;
   justify-content: center;
-  margin: -15px;
+  gap: 30px;
 }
 .clients__item {
   width: calc((100% - 150px) / 6);
-  margin: 15px;
   text-align: center;
 }
 .clients__link {
